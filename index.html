@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Portfolio</title>
-    
     <style>
-        /* Inline CSS styles */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+        /* Reset some default styles for consistency */
+        body, h1, h2, p {
             margin: 0;
             padding: 0;
         }
 
+        /* Overall styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px 0;
             text-align: center;
+            padding: 20px 0;
         }
 
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* Navigation styling */
         nav ul {
             list-style: none;
             padding: 0;
+            margin-top: 20px;
         }
 
         nav li {
@@ -31,18 +50,44 @@
             margin-right: 20px;
         }
 
-        .project {
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* Section styling */
+        section {
             background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 20px;
+            padding: 40px;
             margin: 20px;
             border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.4;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
         }
     </style>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
+        <h1>Sai Swaroop Kambampati</h1>
+        <p>Full Stack Java Developer</p>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -52,50 +97,86 @@
         </nav>
     </header>
 
-    <!-- About Section -->
     <section id="about">
-        <h1>About Me</h1>
-        <p>Write a brief introduction about yourself here.</p>
+        <h2>About Me</h2>
+        <p>Hello! I'm Sai Swaroop, a passionate and versatile full-stack Java developer with a strong foundation in both front-end and back-end development. With a deep love for problem-solving and a commitment to delivering high-quality solutions, I'm excited to present my portfolio.</p>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="portfolio">
-        <h1>My Portfolio</h1>
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio projects here -->
         <div class="project">
-            <h2>Project 1</h2>
-            <p>Description of project 1.</p>
+            
+            <h3>American Express  <br> Full Stack Developer <br>  Sep 2022 - till date</h3>
+            <p> •	Involved in the full-cycle from requirement analysis, design to deployment of Java web services by utilizing Agile software development methodologies.
+            <br>    •	Integrated standalone Java application with custom maven based SFW framework.
+            <br>    •	Programming using Java, J2EE, Oracle, SQL, PL/SQL, XML. 
+            <br>    •	Experience in implementing Spring Hibernate ORM tool mapping Java classes with database. Used Spring framework to realize IOC (Inverse of Control) and AOP (Aspect Oriented Programming) and managed other Java Beans.
+            <br>    •	A robust understanding of front-end technologies, Object-Oriented JavaScript, AJAX, XHTML, HTML, XML/DOM, Node.js, Angular 13, JS-Based framework.
+            <br>    •	Created a RESTful Web API service using ASP.NET Web API to generate data for the EMS which was then consumed in the front-end by Angular 13.
+            </p>
         </div>
         <div class="project">
-            <h2>Project 2</h2>
-            <p>Description of project 2.</p>
+            
+            <h3>GE Health Care <br> Full Stack Developer <br> Feb 2021 - Sep 2022</h3>
+            <p>     •	Involved in various phases of Software Development Life Cycle (SDLC) such as requirements gathering, modeling, analysis, design, development, and testing.
+            <br>    •	Used Java 8 features in developing the code like Lambda expressions, creating resource classes, fetching documents from database.
+            <br>    •	Developed web application using Spring MVC framework.
+            <br>    •	Created Spring Boot components like configure Request mapping annotation controllers, view resolver components. 
+            <br>    •	Used spring as an application framework to build the Services layer and implemented its core modules such as Spring Core Container, Inversion of Control, Data Access and MVC and Used XML/java /annotation Spring Boot configurations
+            <br>    •	Implemented Micro services based Cloud Architecture using Spring Boot. 
+                </p>
         </div>
         <div class="project">
-            <h2>Project 1</h2>
-            <p>Description of project 1.</p>
+            
+            <h3>Pepsico <br> Full Stack Developer <br> Aug 2019 - Feb 2021</h3>
+            <p>         •	Involved in Requirement gathering, Design, Analysis, and Code development by following agile methodology. 
+                <br>    •	Developed the application using Java 8 and implemented its features like lambdas Expressions, Time API, Streams, functional interfaces, collectors, default methods, type interfaces, for each. 
+                <br>    •	Used Spring Framework for dependency injection for Action classes using Application Context XML file. 
+                <br>    •	Developed Micro Service to provide Restful API utilizing Spring Boot with Spring MVC
+                <br>    •	Developing Spring Boot based Micro Services using the annotations & implementing architecture patterns, Used Spring Rest/JSON to expose Micro Services APIs.
+                <br>    •	Used Spring Boot which is radically faster in building cloud Micro Services and develop spring based application with very less configuration.
+                <br>    •	Implemented persistence layer using Hibernate that uses the POJOs to represent the persistence database tuples. Implemented Hibernate to map all the tables from different data sources to make database updating.
+                <br>    •	Developed the application using Eclipse IDE. 
+                </p>
         </div>
         <div class="project">
-            <h2>Project 2</h2>
-            <p>Description of project 2.</p>
+            
+            <h3>Marathon Petroleum <br> J2EE /  Java Developer <br> July 2018 - Aug 2019</h3>
+            <p> •	Involved in the complete SDLC including design of System Architecture, development of System Use Cases based on the functional requirements. 
+                <br>    •	Involved in analysis, design and development of Application based on J2EE and Design Patterns. 
+                <br>    •	Responsible for designing, coding and developed the application in J2EE using spring MVC.
+                <br>   •	Implemented spring framework (Action & Controller classes) for dispatching request to appropriate classes.
+                <br>   •	Used Spring Boot framework with Java to implement Micro Services Architecture with JAX -RS as a web service. 
+                <br>    •	Involved in designing and developing the REST based Micro services using Spring Boot.
+                <br>   •	Used Spring Boot micro service architectural patterns to develop some standalone Micro services.
+                <br>   •	Used Spring Boot to remove broiler plate code which avoids code redundancy.
+                </p>
+        </div>
+        <div class="project">
+            
+            <h3>HoneyWell <br> Java Developer <br> Dec 2015 - June 2018 </h3>
+            <p> •	Involved in the analysis, design and implementation and testing phases of SDLC 
+            <br>    •	Used spring framework in developing the application. 
+            <br>    •	Developed portlets using Spring MVC. 
+            <br>    •	Developed and Implemented Restful Web Services and used Spring Framework. 
+            <br>    •	Responsible for coding User interfaces (UI) using for Spring MVC. 
+            <br>    •	Developed Data Access Layer using Hibernate ORM framework.
+            <br>    •	Involved in developing the persistence layer using Hibernate framework.
+                </p>
         </div>
         <!-- Add more projects as needed -->
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-        <h1>Contact Me</h1>
-        <p>You can reach me at your@email.com</p>
+        <h2>Contact Me</h2>
+        <p>Email: ksaiswaroop2022@gmail.com</p>
+        <p>Phone: 405-920-9447</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/sai-swaroop-kambampati-1aa482242/" target="_blank">LinkedIn Profile</a></p>
     </section>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Sai Swaroop Kambampati</p>
     </footer>
-
-    <script>
-        // Inline JavaScript
-        // You can add your JavaScript code here
-        // For example, to handle form submissions or add interactivity
-        console.log('This is inline JavaScript');
-    </script>
 </body>
 </html>
